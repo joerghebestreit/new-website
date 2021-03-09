@@ -1,0 +1,101 @@
+.nav-element {
+  display: inline;
+  color: rgb(46, 28, 0);
+  margin: 3px;
+  padding: 3px;
+  border: solid 2px;
+  border-radius: 7px;
+  text-align: center;
+  margin: 0%;
+}
+
+.img-prfil-frame {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+.img-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.thatsme {
+  text-align: center;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+}
+
+.layout-grid {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px auto 80px;
+  grid-gap: 1rem;
+}
+
+.layout-flex {
+  display: flex;
+  height: 100vh;
+}
+
+.grid-header {
+  background-image: url("/images/photo-1531824475211-72594993ce2a.jpeg");
+  color: rgb(46, 28, 0);
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.grid-ava {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2 / 3;
+}
+
+.grid-hobbys {
+  grid-row: 3 /4;
+}
+
+.grid-contact {
+  background-color: #f5efe4;
+  padding: 2px;
+  text-align: center;
+  grid-row: 4 / 5;
+}
+
+.flex-link {
+  text-align: center;
+  flex-direction: row;
+  grid-row: 5 / 6;
+}
+
+.grid-am {
+  grid-row: 6 / 7;
+}
+
+.grid-cv {
+  grid-row: 7 / 8;
+}
+
+.felx-footer {
+  display: flex;
+  text-align: center;
+  background-image: url("/images/photo-1546484396-fb3fc6f95f98.jpeg");
+  color: white;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}
+
+.box {
+  height: 50%;
+  width: 100%;
+  background-color: aqua;
+}

@@ -53,6 +53,7 @@ p {
 .layout-grid {
     display: grid;
     width: 100%;
+    height: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px auto auto auto auto auto auto 80px;
     grid-gap: 1rem;
@@ -67,44 +68,44 @@ p {
     background-image: url("images/photo-1531824475211-72594993ce2a.jpeg");
     color: rgb(46, 28, 0);
     grid-column: 1 / 3;
+    grid-row: 1 / 1;
   }
   
   .grid-ava {
     grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 1;
   
   }
 
-  .grid-hobbys{
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 1;
-    grid-column-end: 1;
+  .grid-hobbys {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
   }
 
-  .grid-contact{
+  .grid-contact {
     background-color: #f5efe4;
     padding: 2px;
     text-align: center;
-    grid-row: 4 / 6;
-    grid-column: 1 / 1;
+    grid-row: 4 / 5;
+    grid-column: 1 / 3;
   }
 
-  .flex-link{
+  .flex-link {
     text-align: center;
-    grid-row: 7 / 8;
-    grid-column: 1 / 1;
+    grid-row: 5 / 6;
+    grid-column: 1 / 3;
   }
 
-  .grid-am{
-    grid-row: 9 / 10;
-    grid-column: 1 / 1;
+  .grid-am {
+    grid-row: 6 / 8;
+    grid-column: 1 / 2;
   }
 
-  .grid-cv{
-    grid-row: 7 / 2;
+  .grid-cv {
+    grid-row: 6 / 7;
+    grid-column: 2 / 3;
   }
 
   .grid-footer {
@@ -116,3 +117,10 @@ p {
   grid-row-start: 8;
   grid-row-end: 8;
   }
+
+  .box {
+    height: 50%;
+    width: 100%;
+    background-color: aqua;
+  }
+
